@@ -15,9 +15,12 @@ function addEntries()
     
     // Introducing value in a cell
     let cell = row.insertCell(0);
+    let cell1 = row.insertCell(1);
 
     // Introducing value in new cell being what has been placed on input with a button
-    cell.innerHTML = input + '&emsp;' + '<button class="btn bg-primary text-white btn-delete">' + '<i class="fa-solid fa-trash-can"></i>' + '</button>';
+    cell.innerHTML = lastRow
+    cell.classList.add('align-middle');
+    cell1.innerHTML = input + '&emsp;' + '<button class="btn bg-primary text-white btn-delete">' + '<i class="fa-solid fa-trash-can"></i>' + '</button>';
 
     // Element for deleting a specific row
     row.querySelector('.btn-delete').addEventListener('click', deleteRow);

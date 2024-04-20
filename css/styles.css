@@ -1,8 +1,8 @@
 .table 
 {
-    border-collapse: separate;
+    border-collapse: separate; /* Placing a space betweent rows*/
     border-spacing: 0 10px; /* Set the spacing between rows */
-  }
+}
 
 .table th 
 {
