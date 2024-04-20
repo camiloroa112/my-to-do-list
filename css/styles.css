@@ -1,0 +1,10 @@
+.table 
+{
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Set the spacing between rows */
+  }
+
+.table th 
+{
+    border-bottom: none; /* Removing the bottom border from table headers */
+}
