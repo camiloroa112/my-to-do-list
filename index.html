@@ -14,20 +14,22 @@
                     <div class="d-flex flex-column">
                         <div class="my-auto d-inline-flex gap-2">
                             <input type="text" class="form-control " id="addListInput" name="addListInput" required>
-                            <button class="btn bg-primary">Add</button>
+                            <button class="btn bg-primary text-white" onclick="myCreateFunction()">Add</button>
                         </div>
+                        <table id="taskListTable" class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">List of tasks to do:</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Hello</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
-                <table id="taskListTable" class="table">
-                    <thead>
-                        <tr scope="col">List of tasks to do:</tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-
-                        </tr>
-                    </tbody>
-                </table>
             </div>
         </section>
     </main>
